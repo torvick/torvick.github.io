@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Sttarx</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.css" rel="stylesheet">
+  <link href="scss/modal.css" rel="stylesheet">
+  <link href="scss/users.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <!-- <i class="fas fa-laugh-wink"></i> -->
+        </div>
+        <div class="sidebar-brand-text mx-3">Sttarx</div>
+      </a>
+
+      <!-- Divider -->
+      <!-- <hr class="sidebar-divider my-0"> -->
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+          <img src="./img/avatar.png" alt="" class="img-avatar">
+      </li>
+
+      <hr class="">
+
+      <li class="nav-item">
+        <a class="nav-link icon icon-message" href="dashboard.html">
+          <img src="./img/contact.png" alt="" class="mb-2 icon-message">
+          <div class="message">
+            <p class="number-message">21</p>
+          </div>
+        </a>
+      </li>
+
+      <hr class="">
+
+      <li class="nav-item">
+        <a class="nav-link icon" href="users.html">
+          <img src="./img/users.png" alt="">
+        </a>
+      </li>
+
+      <hr class="">
+
+      <li class="nav-item">
+        <a class="nav-link icon" href="dashboard.html">
+          <img src="./img/Group 2.png" alt="">
+        </a>
+      </li>
+
+      <hr class="">
+
+      <li class="nav-item">
+        <a class="nav-link icon" href="index.html">
+          <img src="./img/Group 3.png" alt="">
+        </a>
+      </li>
+
+      <!-- Divider -->
+      <!-- <hr class="sidebar-divider d-none d-md-block"> -->
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <!-- <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div> -->
+
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow" id="topbar-nav">
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid mt-4">
+
+          <!-- Content Row -->
+          <div class="row mb-4">
+
+            <!-- Earnings (Monthly) Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="col-12">
+                <img src="img/iconStarx.png" class="img-starx-2" alt="Responsive image">
+              </div>
+              <div class="col-12">
+                <h class="textLight-2">ENCRYPTION</h>
+              </div>
+              <div class="col-12">
+                <h class="textLight-2">ECOSYSTEM</h>
+              </div>
+            </div>
+
+            <!-- Earnings (Monthly) Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <!-- <div class="card shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-normal text-success text-uppercase mb-1">Earnings (Annual)</div>
+                      <div class="h5 mb-0 font-weight-normal text-gray-800">$215,000</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+
+            <!-- Earnings (Monthly) Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <!-- <div class="card shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-normal text-info text-uppercase mb-1">Tasks</div>
+                      <div class="row no-gutters align-items-center">
+                        <div class="col-auto">
+                          <div class="h5 mb-0 mr-3 font-weight-normal text-gray-800">50%</div>
+                        </div>
+                        <div class="col">
+                          <div class="progress progress-sm mr-2">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+
+            <!-- Pending Requests Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card shadow h-100 py-2 card-image-world">
+                <div class="card-body img-card">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="h5 mb-0 font-weight-normal text-white mb-2">21 New</div>
+                      <div class="text-xs font-weight-normal text-danger text-uppercase">Communications received </div>
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="mt-2 mb-0 font-weight-light">Issues</div>
+                          <div class="mb-0 font-weight-light">05</div>
+                        </div>
+                        <div class="col-4">
+                          <div class="mt-2 mb-0 font-weight-light">Solved</div>
+                          <div class="mb-0 font-weight-light text-info">05</div>
+                        </div>
+                        <div class="col-4">
+                          <div class="mt-2 mb-0 font-weight-light">Pending</div>
+                          <div class="mb-0 font-weight-light text-danger">0</div>
+                        </div>
+                      </div>
+                      <!-- <div class="h5 mb-0 font-weight-normal text-white">Comunication</div> -->
+                    </div>
+                    <div class="col-auto">
+                      <a href="#" data-toggle="modal" data-target="#exampleModalCenter1"> <img src="./img/next.png" alt=""> </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="col-12 margin-number">
+                <h class="text-number">1,253</h>
+              </div>
+              <div class="col-12 margin-user">
+                <h class="text-user">Users Online</h>
+              </div>
+              <div class="col-12">
+                <h class="text-status text-white">System status: <a href="#" class="col align-self-end btn-info btn-card col-12"><span class="text">All services are safe</span></a></h>
+              </div>
+              <div class="col-12">
+                <h class="text-date color-blue-ligth">As of 15 de octubre de 2020 23:57  <a href="#">View Details</a> </h>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-4"></div>
+            <div class="col-xl-3 col-md-6 mb-4"></div>
+
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card shadow h-100 py-2 card-image-security">
+                <div class="card-body img-card">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="h5 mb-0 font-weight-normal text-white">Encrypt/</div>
+                      <div class="h5 mb-0 font-weight-normal text-white mb-4">Unencrypt</div>
+                      <div class="h5 mb-0 font-weight-normal color-blue-ligth">Files justo et risus</div>
+                    </div>
+                    <div class="col-auto">
+                     <a href="#" data-toggle="modal" data-target="#exampleModalCenter2">  <img src="./img/next.png" alt=""></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card shadow h-100 py-2">
+                <div class="card-body img-card">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col-6">
+                      <div class="h5 mb-0 font-weight-normal text-white">Hack Attempts</div>
+                    </div>
+                    <div class="col-6 row">
+                      <div class="col-12 row">
+                        <a href="#" class="col align-self-end btn-info btn-card col-12">
+                          <span class="text">Secure</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="mt-2 mb-0 font-weight-light">Issues</div>
+                      <div class="mb-0 font-weight-light">05</div>
+                    </div>
+                    <div class="col-4">
+                      <div class="mt-2 mb-0 font-weight-light">Solved</div>
+                      <div class="mb-0 font-weight-light text-info">05</div>
+                    </div>
+                    <div class="col-4">
+                      <div class="mt-2 mb-0 font-weight-light">Pending</div>
+                      <div class="mb-0 font-weight-light text-danger">0</div>
+                    </div>
+                    <div class="col-12 row">
+                      <div class="online"></div>
+                      <div class="online"></div>
+                      <div class="online"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card shadow h-100 py-2">
+                <div class="card-body img-card">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col-6">
+                      <div class="h5 mb-0 font-weight-normal text-white">System 01</div>
+                    </div>
+                    <div class="col-6 row">
+                      <div class="col-12 row">
+                        <a href="#" class="col align-self-end btn-info btn-card col-12">
+                          <span class="text">Secure</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="mt-2 mb-0 font-weight-light">Issues</div>
+                      <div class="mb-0 font-weight-light">05</div>
+                    </div>
+                    <div class="col-4">
+                      <div class="mt-2 mb-0 font-weight-light">Solved</div>
+                      <div class="mb-0 font-weight-light text-info">05</div>
+                    </div>
+                    <div class="col-4">
+                      <div class="mt-2 mb-0 font-weight-light">Pending</div>
+                      <div class="mb-0 font-weight-light text-danger">0</div>
+                    </div>
+                    <div class="col-12 row">
+                      <div class="online"></div>
+                      <div class="online"></div>
+                      <div class="online"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                      <div class="online status-info"></div>
+                      <div class="online"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6 mb-4"></div>
+            <div class="col-xl-3 col-md-6 mb-4"></div>
+
+          </div>
+
+          <!-- Content Row -->
+
+          <div class="row">
+            <!-- Area Chart -->
+            <div class="col-xl-6 col-lg-7">
+              <div class="card shadow mb-4">
+
+                <!-- Card Body -->
+                <div class="card-body row">
+                  <div class="d-none d-sm-inline-block form-inline col-6" align="left">
+                    <h2 class="text-white">Users location</h2>
+                  </div>
+                  <div class="d-none d-sm-inline-block form-inline col-6" align="right">
+                      <p class="color-blue-ligth">1,253 Users Located</p>
+                  </div>
+                  <form class="d-none d-sm-inline-block form-inline col-12 navbar-search mb-4">
+                    <div class="input-group">
+                      <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                      <div class="input-group-append">
+                        <button class="btn btn-search" type="button">
+                          <i class="fas fa-search fa-sm"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+
+                  <div id="map-container-google-1" class="z-depth-1-half map-container col-12" >
+                    <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                      style="border:0;width: 100%;height: 250px;" allowfullscreen></iframe>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Pie Chart -->
+
+
+          <!-- Content Row -->
+
+        </div>
+        <!-- /.container-fluid -->
+        <div class="row">
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card shadow py-2">
+              <div class="col-auto-2">
+                <a href="#" data-toggle="modal" data-target="#exampleModalCenter3"> <img src="./img/next.png" alt=""> </a>
+              </div>
+              <div class="card-body card-image-snipper">
+                <div class="row no-gutters align-items-center">
+                  <div class="col-2"></div>
+                  <div class="col-10 row">
+                    <div class="col-12 h5 mb-0 font-weight-normal text-white mb-2">Users in the system</div>
+                    <div class="col-4">
+                      <div class="mt-2 mb-0 font-weight-light">Active</div>
+                      <div class="mb-0 font-weight-light">1,500</div>
+                    </div>
+                    <div class="col-4">
+                      <div class="mt-2 mb-0 font-weight-light">Inactive</div>
+                      <div class="mb-0 font-weight-light text-danger">120</div>
+                    </div>
+                    <div class="col-4">
+                      <div class="mt-2 mb-0 font-weight-light">Online</div>
+                      <div class="mb-0 font-weight-light text-info">1.253</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card shadow py-2">
+              <div class="col-auto-2">
+                <a href="#" data-toggle="modal" data-target="#exampleModalCenter2"> <img src="./img/next.png" alt=""></a>
+              </div>
+              <div class="card-body card-image-snipper">
+                <div class="row no-gutters align-items-center">
+                  <div class="col-2"></div>
+                  <div class="col-10 row">
+                    <div class="col-12 h5 mb-0 font-weight-normal text-white mb-2">Encripted Apps</div>
+                    <div class="col-6">
+                      <div class="mt-2 mb-0 font-weight-light">Active</div>
+                      <div class="mb-0 font-weight-light">12</div>
+                    </div>
+                    <div class="col-6">
+                      <div class="mt-2 mb-0 font-weight-light">Unactive</div>
+                      <div class="mb-0 font-weight-light text-danger">04</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 mb-4"></div>
+          <div class="col-xl-3 col-md-6 mb-4"></div>
+
+        </div>
+
+      </div>
+      <!-- End of Main Content -->
+
+      <!-- Footer -->
+
+      <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Modal 1 -->
+    <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content modal-customize">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">FILES ENCRYPTION</h5>
+            <button type="button" class="close header-close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="container">
+            <img src="./img/grid2.png" alt="" class="modal-squart">
+            <img src="./img/linearLeft.png" alt="" class="modal-linear">
+            <div class="row">
+              <div class="col-12 mb-4 mt-2">
+                <h1 class="font-size-15 color-blue-ligth">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et tristique magna. Donec aliquam vitae felis eget hendrerit. Nam varius velit libero, quis pharetra purus lobortis cursus.</h1>
+              </div>
+              <div class="col-6">
+                <h1 class="font-size-15">Upload File</h1>
+                <div class="col-12 card-modal modal-border-dropsone">
+                  <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4 mt-4" align="center">
+                      <img src="./img/Upload.png" alt="" class="">
+                    </div>
+                    <div class="col-4"></div>
+
+                    <div class="col-3"></div>
+                    <div class="col-6" align="center">
+                      <h>Upload documents or files</h>
+                      <h class="color-modal-text text-modal-points">Drag them here or</h>
+                    </div>
+                    <div class="col-3"></div>
+
+                    <div class="col-3"></div>
+                    <div class="col-6" align="center">
+                      <button class="btn color-blue-ligth btn-file" type="button" name="button">Select File</button>
+                    </div>
+                    <div class="col-3"></div>
+                    <div class="col-12">
+                      <h class="color-modal-text">Selected files</h>
+                    </div>
+                    <div class="col-12 mb-1">
+                      <h class="text-modal-points">Lorem-Ipsum-dolor_sit_amet.csv <span class="color-points">....................................................................................</span></h><button type="button" class="close header-close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="col-12 mb-1">
+                      <h class="text-modal-points">Lorem-Ipsum-dolor_sit_amet.csv <span class="color-points">....................................................................................</span></h><button type="button" class="close header-close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="col-12 mb-1">
+                      <h class="text-modal-points">Lorem-Ipsum-dolor_sit_amet.csv <span class="color-points">....................................................................................</span></h><button type="button" class="close header-close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="col-12 mb-1">
+                      <h class="text-modal-points">Lorem-Ipsum-dolor_sit_amet.csv <span class="color-points">....................................................................................</span></h><button type="button" class="close header-close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="col-12 mb-1">
+                      <h class="text-modal-points">Lorem-Ipsum-dolor_sit_amet.csv <span class="color-points">....................................................................................</span></h><button type="button" class="close header-close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <h1 class="font-size-15">Encryption method</h1>
+                <div class="col-12 card-modal mb-2 back-color">
+                  <div class="row">
+                    <div class="col-12">
+                      <button type="button" class="btn btn-select-modal">
+                        <span aria-hidden="true" class="span-select">&#10003;</span>
+                      </button>
+                      <h1 class="font-size-22">Jupiter</h1>
+                      <h1 class="font-size-12">Lorem ipsum dolor sit amet, consectetur adipiscing sit amet ante placerat iaculis.</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 card-modal mb-2">
+                  <div class="row">
+                    <div class="col-12">
+                      <h1 class="font-size-22">Mars</h1>
+                      <h1 class="font-size-12">Lorem ipsum dolor sit amet, consectetur adipiscing sit amet ante placerat iaculis.</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 card-modal mb-2">
+                  <div class="row">
+                    <div class="col-12">
+                      <h1 class="font-size-22">Venus</h1>
+                      <h1 class="font-size-12">Lorem ipsum dolor sit amet, consectetur adipiscing sit amet ante placerat iaculis.</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 card-modal mb-2">
+                  <div class="row">
+                    <div class="col-12">
+                      <h1 class="font-size-22">Saturn</h1>
+                      <h1 class="font-size-12">Lorem ipsum dolor sit amet, consectetur adipiscing sit amet ante placerat iaculis.</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 pt-3">
+                <div class="row">
+                  <div class="col-8">
+                    <h1 class="footer-modal color-blue-ligth">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et tristique magna. Donec aliquam vitae felis eget hendrerit. Nam varius velit libero, quis pharetra purus lobortis cursus.</h1>
+                  </div>
+                  <div class="col-4">
+                    <button class="btn btn-primary btn-modal" type="button" name="button">Encrypt File</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- End Modal -->
+
+  <!-- Modal 2 -->
+    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content modal-customize">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">FILES ENCRYPTION</h5>
+            <button type="button" class="close header-close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="container">
+            <img src="./img/grid2.png" alt="" class="modal-squart">
+            <img src="./img/linearLeft.png" alt="" class="modal-linear">
+            <div class="row">
+              <div class="col-12 mb-4">
+                <h1 class="font-size-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et tristique magna. Donec aliquam vitae felis eget hendrerit. Nam varius velit libero, quis pharetra purus lobortis cursus.</h1>
+              </div>
+              <div class="col-12">
+                <div class="col-12 encrypt-process pt-3">
+                  <h1 class="font-size-21">Encrypt process</h1>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                  <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                </div>
+              </div>
+              <div class="col-12 pt-3">
+                <div class="row">
+                  <div class="col-12">
+                    <h1 class="footer-modal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et tristique magna. Donec aliquam vitae felis eget hendrerit. Nam varius velit libero, quis pharetra purus lobortis cursus.</h1>
+                  </div>
+                  <div class="col-12">
+                    <div class="lds-facebook"><div></div><div></div><div></div></div>
+                    <div class="lds-facebook"><div></div><div></div><div></div></div>
+                    <div class="lds-facebook"><div></div><div></div><div></div></div>
+                    <div class="lds-facebook"><div></div><div></div><div></div></div>
+                    <div class="lds-facebook"><div></div><div></div><div></div></div>
+                    <div class="lds-facebook"><div></div><div></div><div></div></div>
+                    <div class="lds-facebook"><div></div><div></div><div></div></div>
+                    <div class="lds-facebook"><div></div><div></div><div></div></div>
+                    <div class="lds-facebook"><div></div><div></div><div></div></div>
+                    <div class="lds-facebook"><div></div><div></div><div></div></div>
+                    <div class="lds-facebook"><div></div><div></div><div></div></div>
+                    <div class="lds-facebook"><div></div><div></div><div></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- End Modal -->
+
+  <!-- Modal 3 -->
+    <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content modal-customize">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">FILES ENCRYPTION</h5>
+            <button type="button" class="close header-close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="container">
+            <img src="./img/grid2.png" alt="" class="modal-squart">
+            <img src="./img/linearLeft.png" alt="" class="modal-linear">
+            <div class="row">
+              <div class="col-12 mb-4">
+                <h1 class="font-size-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et tristique magna. Donec aliquam vitae felis eget hendrerit. Nam varius velit libero, quis pharetra purus lobortis cursus.</h1>
+              </div>
+              <div class="col-12">
+                <div class="col-12 encrypt-process-modal pt-3">
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                      <div class="row pt-4">
+                        <div class="col-3">
+                          <a class="font-size-21" href="#">Send Files</a>
+                        </div>
+                        <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                          <select class="select-table-users" name="">
+                            <option value="0">View All User</option>
+                            <option value="1">10 Users</option>
+                            <option value="2">50 Users</option>
+                            <option value="3">10 Users</option>
+                          </select>
+                          <label for="" class="label-search-table-users">
+                            <input type="text" placeholder="User Name" name="search" value="" class="search-table-users"> <i class="fas fa-search"></i>
+                          </label>
+                        </div>
+                      </div>
+                      <table class="table table-display table-customize" id="">
+                        <thead>
+                          <th>User</th>
+                          <th>Description</th>
+                          <th>Description 2</th>
+                          <th>Action</th>
+                        </thead>
+                        <body>
+                          <tr>
+                            <td> <img src="https://www.uic.mx/posgrados/files/2018/05/default-user.png" class="img-user" alt=""> Fernando Morales</td>
+                            <td>Lorem Ipsum</td>
+                            <td>Lorem Ipsum</td>
+                            <td> <button type="button" class="btn btn-primary btn-customize" name="button">Send File</button> </td>
+                          </tr>
+                          <tr>
+                            <td> <img src="https://www.uic.mx/posgrados/files/2018/05/default-user.png" class="img-user" alt=""> Ricardo Morales</td>
+                            <td>Lorem Ipsum</td>
+                            <td>Lorem Ipsum</td>
+                            <td><button type="button" class="btn btn-primary btn-customize" name="button">Send File</button></td>
+                          </tr>
+                          <tr>
+                            <td> <img src="https://www.uic.mx/posgrados/files/2018/05/default-user.png" class="img-user" alt=""> Victor Morales</td>
+                            <td>Lorem Ipsum</td>
+                            <td>Lorem Ipsum</td>
+                            <td><button type="button" class="btn btn-primary btn-customize" name="button">Send File</button></td>
+                          </tr>
+                          <tr>
+                            <td> <img src="https://www.uic.mx/posgrados/files/2018/05/default-user.png" class="img-user" alt=""> Hugo Morales</td>
+                            <td>Lorem Ipsum</td>
+                            <td>Lorem Ipsum</td>
+                            <td><button type="button" class="btn btn-primary btn-customize" name="button">Send File</button></td>
+                          </tr>
+                          <tr>
+                            <td> <img src="https://www.uic.mx/posgrados/files/2018/05/default-user.png" class="img-user" alt=""> Dalia Morales</td>
+                            <td>Lorem Ipsum</td>
+                            <td>Lorem Ipsum</td>
+                            <td><button type="button" class="btn btn-primary btn-customize" name="button">Send File</button></td>
+                          </tr>
+                          <tr>
+                            <td> <img src="https://www.uic.mx/posgrados/files/2018/05/default-user.png" class="img-user" alt=""> Guadalupe Morales</td>
+                            <td>Lorem Ipsum</td>
+                            <td>Lorem Ipsum</td>
+                            <td><button type="button" class="btn btn-primary btn-customize" name="button">Send File</button></td>
+                          </tr>
+                          <tr>
+                            <td> <img src="https://www.uic.mx/posgrados/files/2018/05/default-user.png" class="img-user" alt=""> Urbano Morales</td>
+                            <td>Lorem Ipsum</td>
+                            <td>Lorem Ipsum</td>
+                            <td><button type="button" class="btn btn-primary btn-customize" name="button">Send File</button></td>
+                          </tr>
+                          <tr>
+                            <td> <img src="https://www.uic.mx/posgrados/files/2018/05/default-user.png" class="img-user" alt=""> Jebus Morales</td>
+                            <td>Lorem Ipsum</td>
+                            <td>Lorem Ipsum</td>
+                            <td><button type="button" class="btn btn-primary btn-customize" name="button">Send File</button></td>
+                          </tr>
+                          <tr>
+                            <td> <img src="https://www.uic.mx/posgrados/files/2018/05/default-user.png" class="img-user" alt=""> Ivan Chaman</td>
+                            <td>Lorem Ipsum</td>
+                            <td>Lorem Ipsum</td>
+                            <td><button type="button" class="btn btn-primary btn-customize" name="button">Send File</button></td>
+                          </tr>
+                        </body>
+                      </table>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 pt-3">
+                <div class="row">
+                  <div class="col-8">
+                    <h1 class="footer-modal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et tristique magna. Donec aliquam vitae felis eget hendrerit. Nam varius velit libero, quis pharetra purus lobortis cursus.</h1>
+                  </div>
+                  <div class="col-4">
+                    <button class="btn btn-primary btn-modal" type="button" name="button">Downlod File</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- End Modal -->
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/chart-area-demo.js"></script>
+  <script src="js/demo/chart-pie-demo.js"></script>
+
+  <script src="vendor/dropzone/dropzone.js"></script>
+
+</body>
+
+</html>
