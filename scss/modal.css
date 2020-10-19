@@ -1,0 +1,259 @@
+.modal-customize{
+  background: #2F3558 !important;
+  border: solid 1px #9DA6DC !important;
+  height: 597px !important;
+}
+
+.modal-dialog-centered{
+  max-width: 957px !important
+}
+
+.modal-title{
+  color: #FFFFFF !important
+}
+
+.font-size-15{
+  font-size: 65%;
+}
+
+.font-size-22{
+  font-size: 22px;
+  color: #EAEAEA !important;
+}
+
+.encrypt-process{
+  width: 896px;
+  height: 344px;
+  border: 1px solid #9DA6DC;
+  border-radius: 6px;
+}
+
+.encrypt-process-modal{
+  width: 896px;
+  height: 344px;
+  border: 1px solid #9DA6DC;
+  border-radius: 6px;
+  margin:5px;
+  padding:5px;
+  overflow: auto;
+  text-align:justify;
+}
+
+.font-size-21{
+  font-size: 100%;
+  color: #EAEAEA !important;
+}
+
+.font-size-12{
+  font-size: 12px;
+  color: #EAEAEA !important;
+}
+
+.modal-header {
+    border-bottom: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.header-close{
+  position: absolute;
+   background: #909EE9 !important;
+   width: 24px !important;
+   height: 24px !important;
+   padding: 0 !important;
+   color: black !important;
+   right: 3%;
+    top: 6%;
+}
+
+.card-modal{
+  border-radius: 6px;
+  border: 1px solid #9DA6DC;
+}
+
+.btn-modal{
+  background: #5867DB !important;
+  font-size: 13px !important;
+  color: white !important;
+  width: 178px !important;
+  height: 30px !important;
+}
+
+.footer-modal{
+  font-size: 11px !important;
+  color: #AFBAF3 !important;
+}
+
+.modal-squart{
+  width: 5%;
+  position: absolute;
+  right: 6%;
+  top: 2%;
+}
+
+.modal-linear{
+  width: 16%;
+  position: absolute;
+  left: 2%;
+  top: 9%;
+}
+
+.modal-border-dropsone{
+  height: 93%;
+}
+.btn-file{
+  border-radius: 8px;
+  background-color: #909EE9;
+  color: white;
+  width: 80%;
+  height: 80%;
+}
+
+.color-modal-text{
+  color: #909EE9;
+}
+
+.color-points{
+  color: #5867DB;
+}
+
+.text-modal-points{
+  font-size: 12px;
+}
+
+.text-modal-drag{
+  font-size: 15px;
+}
+
+.back-color{
+  background-image: linear-gradient(to right , #4F67B9, #2F3558);
+}
+.btn-select-modal{
+  position: absolute;
+  background-color: #34BFDA;
+  right: 2%;
+  top: 13%;
+  color: white;
+  width: 2px;
+  height: 24px;
+}
+
+.span-select{
+  position: absolute;
+  left: 10%;
+  top: -20%;
+  font-size: 21px;
+}
+
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 69px;
+  height: 80px;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #fff;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  from {background-color: #34BFDA;}
+  to {background-color: #49599B;}
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+
+.lds-grid {
+  /* display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px; */
+  display: inline-block;
+  position: relative;
+  width: 68px;
+  height: 65px;
+}
+.lds-grid div {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  animation: lds-grid 1.2s linear infinite;
+}
+.lds-grid div:nth-child(1) {
+  top: 8px;
+  left: 8px;
+  animation-delay: 0s;
+}
+.lds-grid div:nth-child(2) {
+  top: 8px;
+  left: 32px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(3) {
+  top: 8px;
+  left: 56px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(4) {
+  top: 32px;
+  left: 8px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(5) {
+  top: 32px;
+  left: 32px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(6) {
+  top: 32px;
+  left: 56px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(7) {
+  top: 56px;
+  left: 8px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(8) {
+  top: 56px;
+  left: 32px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(9) {
+  top: 56px;
+  left: 56px;
+  animation-delay: -1.6s;
+}
+@keyframes lds-grid {
+  from {background-color: #34BFDA;}
+  to {background-color: #49599B;}
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

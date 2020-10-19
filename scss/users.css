@@ -1,0 +1,161 @@
+.table-users{
+  background: #2F3558;
+  border-radius: 8px;
+}
+
+.table-customize {
+
+}
+
+.background-users{
+  background-image: url('../img/ContainerLogin.png') !important;
+}
+
+table thead th {
+    vertical-align: 0px !important;
+    border-bottom: 0px !important;
+    border-top: 0px !important;
+}
+
+td {
+  background: #2F3558;
+  border-top: 0px !important;
+  color: white !important;
+}
+
+th {
+  color: #909EE9 !important;
+  font-size: 10px;
+}
+
+.font-size-13{
+  font-size: 13px;
+  color: #909EE9;
+}
+
+.img-user{
+  width: 16px;
+  height: 16px;
+}
+
+.paginate_button {
+  background: #4a61ab !important;
+  color: white !important;
+}
+
+.btn-customize{
+  width: 100%;
+  height: 14px;
+  background: #5867DB;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  font-size: 9px !important;
+}
+
+.btn-group .button {
+  background-color: #34BFDA;
+  border: 1px solid #34BFDA;
+  color: white;
+  width: 43%;
+  display: inline-block;
+  font-size: 8px;
+  cursor: pointer;
+  float: left;
+}
+
+.font-size-30{
+  font-size: 30px;
+  color: white;
+}
+
+.button-user-add{
+  align-self: flex-end;
+  text-align: -webkit-center;
+}
+
+.btn-customize-user{
+  background: #5867DB !important;
+  font-size: 13px !important;
+  height: 30px !important;
+  width: 163px !important;
+}
+
+.font-size-14{
+  font-size: 14px;
+  color: #909EE9;
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+  background-color: #E62060;
+  border: 1px solid #E62060;
+}
+
+.search-user{
+  border: 0;
+  width: 90%;
+  height: 25px;
+  font-size: 11px;
+  background: #545C88 !important;
+}
+
+.label-search-user{
+  width: 100%;
+  height: 100%;
+  background: #545C88 !important;
+}
+
+::placeholder {
+  color: #B1B7DC;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #B1B7DC;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #B1B7DC;
+}
+
+.btn-group .button:hover {
+  background-color: #E62060;
+}
+
+.map-user{
+  background: #2F3558;
+  border-radius: 8px;
+}
+
+.logo-users{
+  width: 124px;
+  header: 40px;
+}
+
+.select-table-users{
+  background: #545C88;
+  color: #B1B7DC;
+  width: 22%;
+  height: 80%;
+  font-size: 11px !important
+}
+
+.border-doted{
+  border-top: dashed 1px;
+}
+
+.search-table-users{
+  background: #545C88;
+  border: 0;
+  width: 95%;
+  height: 100%;
+  font-size: 11px !important;
+}
+
+.label-search-table-users{
+  background: #545C88;
+  color: #B1B7DC;
+  width: 76%;
+  height: 80%;
+  font-size: 11px !important;
+}
