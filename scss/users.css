@@ -9,6 +9,7 @@
 
 .background-users{
   background-image: url('../img/ContainerLogin.png') !important;
+  background-size: 100% 100% !important;
 }
 
 table thead th {
