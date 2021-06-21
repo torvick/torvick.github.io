@@ -10,6 +10,9 @@ var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
 })
 
 // Fixed Plugin
+function menu_f(e) {
+  console.log(e);
+}
 
 if (document.querySelector('.fixed-plugin')) {
   var fixedPlugin = document.querySelector('.fixed-plugin');
