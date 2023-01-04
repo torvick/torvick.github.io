@@ -1,0 +1,266 @@
+{
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
+  "settings": {
+    "language": "ES",
+    "MACVersion": "0.3"
+  },
+  "aboutMe": {
+    "profile": {
+      "name": "Victor Hugo",
+      "surnames": "Urquides Puentes",
+      "title": "FullStack Developer",
+      "description": "Soy ingeniero en sistemas computacionales con más de 8 años de experiencia, trabajé con clientes de diferentes áreas de negocio. Me considero un Full Stack Developer porque me siento muy cómodo trabajando en backend y frontend, y también en DevOps. A lo largo de toda mi experiencia profesional he estado expuesto y trabajado en diversos entornos y personas y he colaborado en el desarrollo, diseño y despliegue de aplicaciones y sistemas web con diferentes patrones de diseño, lenguajes y tecnologías",
+      "avatar": {
+        "alt": "",
+        "link": ""
+      },
+      "location": {
+        "notes": "Autocompleted using Google Maps API"
+      }
+    }
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "Batched"
+        },
+        "roles": [
+          {
+            "name": "FullStack Developer ",
+            "startDate": "2021-01-01",
+            "challenges": [
+              {
+                "description": "Generacion de plataforma de generacion de tarjetas y crypto wallets"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Uulala"
+        },
+        "roles": [
+          {
+            "name": "FullStack Developer ",
+            "startDate": "2019-01-01",
+            "finishDate": "2020-12-01",
+            "challenges": [
+              {
+                "description": "generacion de plataforma de nomina \nintegraciones de apis externas para la disprecion de nomina "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "EasyMePresta"
+        },
+        "roles": [
+          {
+            "name": "FullStack Developer ",
+            "startDate": "2018-01-01",
+            "finishDate": "2018-12-01",
+            "challenges": [
+              {
+                "description": "Generacion de plataforma para prestamos de nomina\nGeneracion de aplicacion mobile para los prestamos de nomina\nadministracion de servidores (AWS)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Metricas SAPI de CV."
+        },
+        "roles": [
+          {
+            "name": "FullStack Developer ",
+            "startDate": "2017-01-01",
+            "finishDate": "2017-12-01",
+            "challenges": [
+              {
+                "description": "Generacion de plataforma para la administracion de facturacion\nGeneracion de plataforma para la administracion de personal\nGeneracion de aplicacion mobile para la factuacion"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "OPENCAP"
+        },
+        "roles": [
+          {
+            "name": "FullStack Developer ",
+            "startDate": "2016-01-01",
+            "finishDate": "2016-12-01",
+            "challenges": [
+              {
+                "description": "Generacion de plataforma para prestamos"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Dirección General de Centro de Formación para el Trabajo (DGCFT)"
+        },
+        "roles": [
+          {
+            "name": "FullStack Developer ",
+            "startDate": "2015-01-01",
+            "finishDate": "2015-12-01",
+            "challenges": [
+              {
+                "description": "Generacion de plataforma de administracion de empleados"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "languages": [
+      {
+        "name": "Spanish",
+        "level": "Native or bilingual proficiency"
+      }
+    ],
+    "hardSkills": [
+      {
+        "skill": {
+          "name": "HTML",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Redis",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JavaScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MySQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "NodeJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Nginx",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SOAP",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "REST",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Ruby on Rails",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "React Native",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PostgreSQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "GraphQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Apache",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "jQuery",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Ruby",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SQLServer",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MongoDB",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "CSS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "API",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "AngularJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "AWS",
+          "type": "technology"
+        }
+      }
+    ]
+  },
+  "careerPreferences": {
+    "status": "searchingActively"
+  }
+}
