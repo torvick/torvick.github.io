@@ -294,6 +294,9 @@
           "name": "JAVA",
           "type": "technology"
         }
+      ],
+      "preferredRoles": [
+        "Full-stack Developer"
       ]
     },
     "status": "searchingActively"
