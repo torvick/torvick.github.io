@@ -15,9 +15,18 @@
         "link": ""
       },
       "location": {
+        "country": "México",
+        "region": "Ciudad de México",
+        "municipality": "Ciudad de México",
         "notes": "Autocompleted using Google Maps API"
       }
-    }
+    },
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/victor-hugo-urquides-puentes-52310a136/"
+      }
+    ]
   },
   "experience": {
     "jobs": [
@@ -261,6 +270,14 @@
     ]
   },
   "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        {
+          "type": "linkedin",
+          "URL": "https://www.linkedin.com/in/victor-hugo-urquides-puentes-52310a136/"
+        }
+      ]
+    },
     "preferences": {
       "preferredCompetences": [
         {
