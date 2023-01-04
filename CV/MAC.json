@@ -261,6 +261,20 @@
     ]
   },
   "careerPreferences": {
+    "preferences": {
+      "preferredCompetences": [
+        {
+          "name": "Ruby on Rails",
+          "type": "technology"
+        }
+      ],
+      "discardedCompetences": [
+        {
+          "name": "JAVA",
+          "type": "technology"
+        }
+      ]
+    },
     "status": "searchingActively"
   }
 }
