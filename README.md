@@ -1,4 +1,4 @@
-<img src="/assets/cv_icon.png" align="right" width="128px" />
+<!-- <img src="/assets/cv_icon.png" align="right" width="128px" />
 
 # Victor Hugo Urquides Puentes's CV
 
@@ -78,4 +78,4 @@ You can find the full MAC definition available [here](https://github.com/getmanf
 
 The CVs included in this repository contain my personal and professional data, and they can't be automatically processed without my explicit permission according to the [GDPR](https://gdpr-info.eu/) (General Data Protection Regulation).
 
-The [MAC format](https://github.com/getmanfred/mac) is free and open-source software licensed and distributed under the [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0 International).
+The [MAC format](https://github.com/getmanfred/mac) is free and open-source software licensed and distributed under the [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0 International). -->
